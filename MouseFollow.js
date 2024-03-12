@@ -89,7 +89,7 @@ const clear = () => {
 Draw
 --------------------*/
 const draw = () => {
-  clear()    
+  clear();
 
   chain.forEach((link, index) => {
     if (isMouseMoving) {
