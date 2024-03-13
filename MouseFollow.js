@@ -66,7 +66,7 @@ const onMouseMove = (e) => {
   clearTimeout(timeoutID)
   timeoutID = setTimeout(() => {
     isMouseMoving = false
-  }, 3000)
+  }, 2000)
 }
 
 
